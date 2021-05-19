@@ -376,7 +376,8 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    puma (3.9.1)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-attack (6.2.0)
       rack (>= 1.0, < 3)
@@ -543,7 +544,7 @@ DEPENDENCIES
   omniauth-google-oauth2
   omniauth-twitter
   pg (= 0.20.0)
-  puma (= 3.9.1)
+  puma (= 4.3.8)
   rack-attack
   rails (= 5.1.6)
   rails-controller-testing (= 1.0.2)
